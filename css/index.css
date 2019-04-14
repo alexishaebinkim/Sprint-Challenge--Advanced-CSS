@@ -1,3 +1,12 @@
+.img-mixin {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+  padding: 1%;
+}
+.border-radius10 {
+  border-radius: 10px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -199,7 +208,7 @@ footer {
   padding: 0 15px;
 }
 .home .intro img {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 @media (max-width: 500px) {
   .home .intro img {
@@ -221,8 +230,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images .top img {
-    width: 180%;
-    padding: 3%;
+    width: 170%;
   }
 }
 .home .space-images .middle img {
@@ -329,10 +337,5 @@ footer {
     width: 100%;
     margin: 0;
     padding-bottom: 5%;
-  }
-}
-@media (max-width: 500px) {
-  .home {
-    background-color: red;
   }
 }
